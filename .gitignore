@@ -1,0 +1,20 @@
+# CodeIgniter 4 specific ignores
+/vendor/
+/node_modules/
+/writable/cache/*
+/writable/logs/*
+/writable/session/*
+/writable/uploads/*
+/writable/debugbar/*
+!/writable/cache/index.html
+!/writable/logs/index.html
+!/writable/session/index.html
+!/writable/uploads/index.html
+!/writable/debugbar/.gitkeep
+.env
+.env.backup
+phpunit.xml
+/public/uploads/*
+!/public/uploads/index.html
+.vscode/
+.idea/
